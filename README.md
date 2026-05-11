@@ -89,6 +89,58 @@ In_Class_09: Student Alcohol Consumption Analysis – Worked with student-mat da
 In_Class_10: Titanic Dataset Exploration – Loaded Titanic dataset and performed initial EDA including checking for missing values, survival rate calculations, and basic statistical summaries by passenger class and gender.
 
 # DATA-511
+DATA_511_Exam_1: Midterm Exam – Prescriptive Analytics. Covered linear programming, optimization modeling, sensitivity analysis, and integer programming using PuLP. Solved various business optimization problems (resource allocation, production planning, etc.) and interpreted dual prices/shadow prices.
+DATA_511_Exam_2: Final Exam – Prescriptive Analytics. Advanced optimization topics including goal programming, nonlinear programming, network models, and simulation. Focused on building and solving complex prescriptive models for decision support.
+
+Hwk_1: Linear Programming – Production Planning – Built and solved a linear programming model using PuLP to maximize profit for a manufacturing company. Defined decision variables, constraints (labor, material, demand), and performed sensitivity analysis.
+Hwk_2: Linear Programming – Investment Portfolio Optimization – Formulated and solved an LP model to optimize investment allocation across multiple assets while satisfying risk and return constraints using PuLP.
+Hwk_3: Integer Programming – Knapsack / Resource Allocation – Solved integer programming problems (including 0-1 and bounded integer variables) using PuLP. Focused on combinatorial optimization scenarios such as project selection or capital budgeting.
+Hwk_4: Probability Concepts & Combinatorics – Completed theoretical exercises on basic probability rules, conditional probability, combinations vs permutations, mutually exclusive events, and sample spaces. Calculated probabilities and combinations manually.
+Hwk_5: Probability Distributions & Linear Programming – Covered normal and binomial distributions with calculations and examples. Solved a linear programming profit maximization problem (wheat vs corn planting) using scipy.optimize.linprog with labor and land constraints.
+Hwk_6: Decision Analysis & Decision Trees (DADT) – Explored Decision Analysis Decision Trees (DADT) concepts, differences from predictive models, and integration with integer programming. Built a multi-scenario investment decision analysis with present value calculations and expected value recommendations for City Center vs Suburb development options.
+Hwk_7: Simulation Concepts & Monte Carlo – Studied stochastic vs non-stochastic simulations, random number generation, and types of business shocks. Implemented Monte Carlo simulation to estimate π and simulated quarterly revenue shocks using NumPy.
+Hwk_8: Advanced Simulation & Convergence – Covered Central Limit Theorem applications in simulation, convergence diagnostics, and result stabilization. Performed die roll simulation (10,000 trials) with frequency visualization and further Monte Carlo exercises.
+
+In_Class_01: Linear Programming Basics with PuLP – Introduced PuLP library for linear programming. Solved a simple resource allocation problem by defining decision variables, objective function, and constraints, then solved and extracted optimal values.
+In_Class_02: Linear Programming – Production Planning – Built a more complex LP model using PuLP for a manufacturing production planning scenario. Defined multiple products, resource constraints (labor, materials), and maximized total profit.
+In_Class_03: Sensitivity Analysis in Linear Programming – Continued production planning model. Performed sensitivity analysis on constraints and objective coefficients using PuLP to understand shadow prices and allowable ranges for optimal solution stability.
+In_Class_04: Integer Programming – Knapsack Problem – Formulated and solved a 0-1 Knapsack problem using PuLP. Maximized value of selected items subject to weight capacity constraint, demonstrating binary decision variables.
+In_Class_05: Integer Programming – Capital Budgeting / Project Selection – Solved a binary integer programming model for project selection. Maximized total return/NPV while respecting budget constraints using PuLP.
+In_Class_06: Linear & Integer Programming Review – Reviewed core concepts of linear programming (objective function, constraints) vs integer programming. Solved a pastry shop profit maximization problem using both scipy.optimize.linprog (continuous) and milp (integer constraints) with PuLP-style modeling.
+In_Class_07: Decision Analysis Decision Trees (DADT) – Differentiated between Machine Learning Decision Trees (MLDT) and Decision Analysis Decision Trees (DADT). Built a function to calculate present value of an annuity and computed expected present value for a hotel development project under Low/Medium/High scenarios using scenario probabilities.
+In_Class_08: Simulation Fundamentals – Covered key simulation concepts including pseudo-random numbers, reproducibility (random seeds), and components of stochastic simulations. Implemented a Linear Congruential Generator (LCG) function to produce pseudo-random numbers.
+In_Class_09: Advanced Simulation Techniques – Explored probability distributions for simulation (Triangular distribution), simulation-based regression, and Monte Carlo methods. Implemented a coin toss simulation (10,000 trials) and discussed how simulation handles uncertainty in optimization models.
+In_Class_10: What-If & Scenario Analysis – Differentiated scenario analysis from basic what-if analysis. Built a logistic take-rate function and performed contribution margin simulation for pricing decisions (revenue, cost, and profit under varying market conditions).
+
+# DATA-547
+DATA_547_Exam_1: Midterm Exam – Applied Deep Learning I. Comprehensive theory and practical assessment covering TensorFlow fundamentals, CNN concepts (convolutional/pooling layers, data augmentation), activation functions, dense layers, and building deep learning models for regression (blueberry yield prediction using bee density, temperature, and other features).
+DATA_547_Exam_2: Final Exam – Applied Deep Learning I. Advanced topics including word embeddings (Word2Vec, GloVe, FastText), RNNs, LSTMs, GRUs, and building neural networks for text classification (airline tweet sentiment analysis).
+
+Hwk_1: TensorFlow Basics & Perceptron Model – Explored TensorFlow tensor creation, data type casting, and string tensors. Built and trained a single-layer Perceptron (sigmoid activation) on a synthetic binary classification dataset using scikit-learn, achieving strong accuracy.
+Hwk_2: California Housing Regression with TensorFlow – Built and compared neural network regressors on the California Housing dataset. Implemented models with BatchNormalization, hidden layers (ReLU), Adam optimizer, and Mean Squared Error evaluation. Trained with validation split and evaluated on test set.
+Hwk_3: Crab Age Prediction Regression – Performed EDA on the Crab Age Prediction dataset (including sex frequency and age distribution). Built TensorFlow/Keras neural network regressors to predict crab age from physical attributes (length, weight, etc.).
+Hwk_4: Fashion MNIST Image Classification – Loaded and explored the Fashion MNIST dataset (60k train / 10k test 28x28 grayscale images). Visualized sample images across 10 clothing categories and prepared data for CNN modeling.
+Hwk_5: CNN for Fashion MNIST Classification – Built a Convolutional Neural Network (CNN) using TensorFlow/Keras with two Conv2D + MaxPooling layers, Flatten, Dense(128, ReLU), and softmax output. Trained for 50 epochs with Adam optimizer and achieved strong test accuracy on multi-class image classification.
+Hwk_6: Wine Reviews Regression with TensorFlow – Loaded and explored the Wine Reviews dataset (winemag-data-130k-v2.csv). Performed data cleaning (removing punctuation from descriptions), EDA on variety and country distributions, and prepared features for regression modeling of wine points or price using TensorFlow.
+Hwk_7: (Deep Learning Image / Text Task) – Continued deep learning exercises on image classification or text-based regression using TensorFlow/Keras. Focused on model architecture refinement, training, and evaluation.
+Hwk_8: (Advanced CNN / Transfer Learning) – Advanced CNN implementation, likely including data augmentation, deeper architectures, or transfer learning techniques on image or wine-related datasets.
+
+In_Class_01: TensorFlow Fundamentals – Explored core TensorFlow concepts including tensor creation, operations, variables, automatic differentiation (GradientTape), and basic neural network building blocks.
+In_Class_02: Building a Neural Network from Scratch in TensorFlow – Implemented a basic feed-forward neural network using TensorFlow low-level operations. Covered forward propagation, loss calculation, and manual gradient descent updates.
+In_Class_03: Keras Sequential API Basics – Built and trained neural networks using the high-level Keras Sequential API. Included dense layers, activation functions, model compilation (optimizer/loss/metrics), and training with .fit().
+In_Class_04: California Housing Regression with Keras – Built a multi-layer neural network regressor using Keras Sequential API on the California Housing dataset. Applied feature scaling, train/validation/test splits, and evaluated performance with MSE/MAE.
+In_Class_05: Binary Classification with Keras – Built a Keras Sequential model for binary classification. Included data preprocessing, model architecture (hidden layers + sigmoid output), training, and evaluation using accuracy and other classification metrics.
+In_Class_06: Multi-Class Classification with Keras – Built a Keras Sequential model for multi-class classification. Included data preprocessing (one-hot encoding of labels), model architecture with softmax output, and evaluation using accuracy and confusion matrices.
+In_Class_07: Fashion MNIST Image Classification (MLP) – Loaded Fashion MNIST dataset and built a Multi-Layer Perceptron (MLP) using Keras for image classification. Flattened 28x28 images and trained a dense neural network on the 10 clothing categories.
+In_Class_08: Fashion MNIST with Convolutional Neural Network (CNN) – Built and trained the first CNN model on Fashion MNIST. Implemented Conv2D + MaxPooling layers, Flatten, and Dense layers. Significantly improved performance over the MLP version.
+In_Class_09: CNN Architecture Improvements – Enhanced the Fashion MNIST CNN with additional convolutional layers, dropout regularization, and hyperparameter tuning. Focused on reducing overfitting and improving test accuracy.
+In_Class_10: Data Augmentation for Image Classification – Applied real-time data augmentation (rotation, zoom, flips, shifts) using ImageDataGenerator on Fashion MNIST to improve model generalization and robustness.
+In_Class_11: Advanced CNN Techniques & Model Evaluation – Further refined CNN architecture with batch normalization, additional data augmentation strategies, and comprehensive model evaluation (learning curves, confusion matrix, per-class performance).
+
+# DATA-548
+
+
+
 
 
 
