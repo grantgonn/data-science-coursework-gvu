@@ -2,7 +2,7 @@
 Repo for all coursework from Grand View University Data Science and Analytics Bachelors and Masters programs
 
 # DATA-448
-exam1: Midterm Exam – Comprehensive predictive modeling assessment. Performed full EDA, feature engineering (including scaling and encoding), built and compared multiple classification models (Logistic Regression, Decision Tree, Random Forest, AdaBoost), and evaluated performance using ROC-AUC, precision-recall, and classification reports on a provided dataset.
+##exam1: Midterm Exam – Comprehensive predictive modeling assessment. Performed full EDA, feature engineering (including scaling and encoding), built and compared multiple classification models (Logistic Regression, Decision Tree, Random Forest, AdaBoost), and evaluated performance using ROC-AUC, precision-recall, and classification reports on a provided dataset.
 exam2: Final Exam – End-of-course predictive analytics assessment. Conducted advanced modeling including feature engineering, hyperparameter tuning, model comparison (tree-based ensembles), and business-oriented evaluation (probability cutoffs and cost-sensitive analysis) on a new dataset.
 
 HW1: Retail Fraud Detection – Built and compared Logistic Regression, Decision Tree, Random Forest, and Gradient Boosting models on transaction data pulled from S3. Engineered rate-based features and used MinMax scaling to identify fraudulent cashier behavior.
